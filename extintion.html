@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 97%;
+        height: 100vh;
+        padding: 0 6px;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        min-width: 400px;
+      }
+      button {
+        border: 0;
+        text-transform: uppercase;
+        background: #5f9341;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 20px;
+        border: 2px solid #5f9341;
+        transition: 0.5s;
+        margin: 10px 5px;
+      }
+      button:hover {
+        background: #fff;
+        color: #5f9341;
+      }
+      #delete-btn {
+        background: #fff;
+        color: #5f9341;
+      }
+      #delete-btn:hover {
+        background-color: #5f9341;
+        color: #fff;
+      }
+      input {
+        width: 98%;
+        display: block;
+        border: 2px solid #5f9341;
+        padding: 14px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      input:focus {
+        outline: none;
+      }
+      ul {
+        margin: 20px 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      ul a {
+        color: #5f9341;
+        text-decoration-color: #5f9341;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="input-el" />
+    <button id="input-btn">save input</button>
+    <button id="tab-btn">save tab</button>
+    <button id="delete-btn">delete all</button>
+    <ul id="ul-el"></ul>
+    <script src="extintion.js"></script>
+  </body>
+</html>
